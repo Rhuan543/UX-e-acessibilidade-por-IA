@@ -1,0 +1,49 @@
+/* Estilos adicionais para focar em acessibilidade física e visual */
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    transition: font-size 0.2s ease, background-color 0.3s ease;
+}
+
+/* Garantindo o tamanho mínimo de toque de 48px para botões segundo diretrizes de acessibilidade */
+button,
+a,
+input,
+select {
+    min-height: 48px;
+    min-width: 48px;
+}
+
+/* Foco ultra visível para navegação por teclado */
+*:focus-visible {
+    outline: 4px solid #3b82f6 !important;
+    outline-offset: 2px;
+}
+
+/* Escalas de tamanho de fonte personalizáveis */
+.font-normal-size {
+    font-size: 1.125rem;
+}
+
+/* Iniciamos já com texto maior (18px) */
+.font-large-size {
+    font-size: 1.375rem;
+}
+
+/* 22px */
+.font-xlarge-size {
+    font-size: 1.625rem;
+}
+
+/* 26px */
+
+.title-normal-size {
+    font-size: 1.75rem;
+}
+
+.title-large-size {
+    font-size: 2.25rem;
+}
+
+.title-xlarge-size {
+    font-size: 2.75rem;
+}
